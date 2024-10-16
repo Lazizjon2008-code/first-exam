@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #010208;
+}
+
+header {
+    position: fixed;
+}
+
+.begining_of_exam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo_component {
+    margin-left: 90px;
+}
+
+.logo_component img {
+    width: 96px;
+    height: 48px;
+}
+
+.the_navbar {
+    margin-right: 90px;
+}
+
+.the_navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
+
+.the_navbar ul li a {
+    font-size: 14px;
+    color: #E3E4E6;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.the_navbar ul li a:hover {
+    color: #BC3CD8;
+    border-bottom: 1px solid #E3E4E6;
+}
+
+.word_of_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.specialising{
+    font-size: 48px;
+    color: #E3E4E68C;
+}
+
+.strike {
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.design_of_interaction {
+    margin-left: 250px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-size: 56px;
+}
+
+.name_of_arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.name_of_arrow img {
+    width: 20px;
+    height: 10px;
+}
+
+.name_of_arrow button {
+    background-color: #010208;
+    border: none;
+}
+
+.clients {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.some_of {
+    font-size: 36px;
+    color: #E3E4E68C;
+}
+
+.the_client {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.imgs_of_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.work_of_strong {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.works_selected p {
+    font-size: 36px;
+    color: #E3E4E68C;
+}
+
+.works_selected {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+
+.website_pictures {
+    display: grid;
+    grid-template-columns: repeat(2, 591px);
+    grid-template-rows: repeat(1, 500px);
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 70px;
+}
+
+.about_site {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    background-color:#010208;
+}
+
+.about_site h5 {
+    font-size: 16px;
+    color: #E3E4E6;
+    margin-top: 170px;
+}
+
+.lorem_of_site {
+    font-size: 30px;
+    color: #E3E4E6;
+}
+
+.continue_of_lorem {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.design_of_website {
+    font-size: 18px;
+    color: #E3E4E6;
+}
+
+.about_site button {
+    width: 163px;
+    height: 40px;
+    background-color: #010208;
+    border: 1px solid #E3E4E68C;
+    border-radius: 100px;
+}
+
+.about_site button a {
+    font-size: 16px;
+    color: #E3E4E6;
+    text-decoration: none;
+}
+
+.about_site button a img {
+    width: 7px;
+    height: 14px;
+    margin-left: 8px;
+    padding-top: 3.5px;
+}
+
+.plant_img {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.plant_site {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.plant_site h5 {
+    font-size: 16px;
+    color: #E3E4E6;
+    margin-top: 170px;
+}
+
+.plant_site button {
+    width: 163px;
+    height: 40px;
+    background-color: #BC3CD8;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+.plant_site button a {
+    font-size: 16px;
+    color: #E3E4E6;
+    text-decoration: none;
+}
+
+.plant_site button a img {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+.website_of_smartphone {
+    display: grid;
+    grid-template-columns: repeat(2, 594px);
+    grid-template-rows: repeat(1, 490px);
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 70px;
+}
+
+.phone_img {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.phone_site {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    background-color:#010208;
+}
+
+.phone_site h5 {
+    font-size: 16px;
+    color: #E3E4E6;
+    margin-top: 170px;
+}
+
+.phone_site button {
+    width: 163px;
+    height: 40px;
+    background-color: #010208;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+.phone_site button a {
+    font-size: 16px;
+    color: #E3E4E6;
+    text-decoration: none;
+}
+
+.phone_site button a img {
+    width: 7px;
+    height: 14px;
+    margin-left: 8px;
+    padding-top: 3.5px;
+}
+
+.design_img {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.design_site {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    background-color:#010208;
+}
+
+.design_site h5 {
+    font-size: 16px;
+    color: #E3E4E6;
+    margin-top: 170px;
+}
+
+.design_site button {
+    width: 163px;
+    height: 40px;
+    background-color: #010208;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+.design_site button a {
+    font-size: 16px;
+    color: #E3E4E6;
+    text-decoration: none;
+}
+
+.design_site button a img {
+    width: 7px;
+    height: 14px;
+    margin-left: 8px;
+    padding-top: 3.5px;
+}
+
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.about_us h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.enjoying_pictures {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 250px;
+}
+
+.enjoying_pictures img {
+    width: 282px;
+    height: 408px;
+}
+
+.the_mountain {
+    margin-top: 40px;
+}
+
+.me_and_my_site p {
+    margin-top: 50px;
+}
+
+.creating_things {
+    font-size: 30px;
+    color: #E3E4E68C;
+}
+
+.experience {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.me_and_my_site {
+    margin-left: 80px;
+}
+
+.the_foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+.get_and_made {
+    font-size: 48px;
+    color: #E3E4E68C;
+}
+
+.the_foot h4 {
+    font-size: 18px;
+    color: #E3E4E6;
+    margin-top: 30px;
+}
+
+.design_touch {
+    font-size: 52px;
+    color: #FFFFFF;
+}
+
+.the_heart {
+    font-size: 48px;
+    color: #E3E4E68C;
+}
+
+.apps_pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+.apps_pictures img {
+    width: 48px;
+    height: 48px;
+}
+
+.last_tag_p {
+    margin-top: 100px;
+}

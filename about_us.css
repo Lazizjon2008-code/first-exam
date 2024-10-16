@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #010208;
+}
+
+.btn_of_back {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.btn_of_back button a {
+    font-size: 17px;
+    color: #E3E4E6;
+    text-decoration: none;
+}
+
+.btn_of_back button {
+    width: 120px;
+    height: 40px;
+    background-color: #010208;
+    border: 1px solid #E3E4E68C;
+    border-radius: 100px;
+}
+
+section {
+    padding-bottom: 150px;
+}
+
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about_us h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.enjoying_pictures {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 250px;
+}
+
+.enjoying_pictures img {
+    width: 282px;
+    height: 408px;
+}
+
+.the_mountain {
+    margin-top: 40px;
+}
+
+.me_and_my_site p {
+    margin-top: 50px;
+}
+
+.creating_things {
+    font-size: 30px;
+    color: #E3E4E68C;
+}
+
+.experience {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.me_and_my_site {
+    margin-left: 80px;
+}
